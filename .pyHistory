@@ -1,0 +1,1 @@
+﻿sum([!Count! for !Count! in arcpy.da.SearchCursor("Extract_NLCD1", "Count")])
